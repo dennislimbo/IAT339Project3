@@ -1,0 +1,28 @@
+/* Navigation */
+
+nav {
+    display: flex;
+}
+
+.logo {
+    justify-self: flex-start;
+    flex: 3;
+}
+
+.nav-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.container {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+}
+
+.col-one {
+    flex: 1 1;
+    height: 250px;
+    background-color: #a9a9a9;
+    margin: 1rem;
+}

@@ -1,0 +1,126 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1.5rem;
+}
+
+a {
+    cursor: pointer;
+}
+
+section {
+    margin-bottom: 3rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid black;
+}
+
+code {
+    display: inline-block;
+    background-color: lightgray;
+    padding: 1rem;
+}
+
+/* Headers */
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+#header1>h1, #header2>h2:first-child, #header3>h3:first-child {
+    text-transform: uppercase;
+}
+
+.code-header {
+    font-weight:  500;
+    text-transform: lowercase;
+}
+
+/* Paragraph and Links */
+
+p, .intext {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+}
+
+.nav-item {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: 	#A9A9A9;
+    cursor: pointer;
+}
+
+.intext {
+    border-bottom: 1px solid #A9A9A9;
+}
+
+.intext:hover, .intext:focus {
+    border-color: black;
+}
+
+/* Colour Swatches */
+
+.swatch-container {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: row;
+}
+
+.swatch {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #aaaaaa;
+    margin-right: 1.75rem;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#black {
+    background-color: black;
+    color: white;
+}
+
+#white {
+    background-color: white;
+}
+
+#grey {
+    background-color: #A9A9A9;
+}
+
+#green {
+    background-color: #52B788;
+}
+/* Grid Styling */
+
+
+
+/* Navigation */
+nav a {
+    margin: 1rem 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: 	#A9A9A9;
+    cursor: pointer;
+}
+
+nav .logo a{
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: .5px;
+}
+
+nav .active, nav .logo a {
+    color: black;
+}
+
+nav a:hover, nav a:focus, .nav-item:hover, .nav-item:focus {
+    color: #52B788;
+}
