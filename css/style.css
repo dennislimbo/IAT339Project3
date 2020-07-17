@@ -22,6 +22,10 @@ code {
     padding: 1rem;
 }
 
+header a {
+    font-size: 2.5em;
+}
+
 /* Headers */
 
 h1, h2, h3 {
@@ -49,11 +53,12 @@ p, .intext {
     font-weight: 400;
 }
 
-.nav-item {
+.nav-item, header a {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     color: 	#A9A9A9;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .intext {
@@ -117,10 +122,10 @@ nav .logo a{
     letter-spacing: .5px;
 }
 
-nav .active, nav .logo a {
+nav .active, nav .logo a, header .active {
     color: black;
 }
 
-nav a:hover, nav a:focus, .nav-item:hover, .nav-item:focus {
+nav a:hover, nav a:focus, .nav-item:hover, .nav-item:focus, header a:focus, header a:hover {
     color: #52B788;
 }
